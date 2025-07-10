@@ -1,11 +1,16 @@
-import './App.css';
-import NavBar from './components/NavigationBar';
+import "./App.css";
+import NavigationBar from "./components/NavigationBar";
+import Intro from "./components/Intro";
+import "./style/landingPage.css"
 
 function App() {
   return (
     <div>
-      <h1>Testing</h1>
-      <NavigationBar />
+      {/* intro section */}
+      <div className="myBG">
+        <NavigationBar />
+        <Intro />
+      </div>
     </div>
   );
 }
