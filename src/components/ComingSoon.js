@@ -1,22 +1,22 @@
 import { Card, Container, Row, Col, Image } from "react-bootstrap";
-import dragonImage from "../assets/images/Tranding/dragon.jpg";
-import elio from "../assets/images/Tranding/elio.jpg";
-import superman from "../assets/images/Tranding/superman.jpg";
-import years from "../assets/images/Tranding/28years.jpg";
-import summer from "../assets/images/Tranding/summer.jpg";
-import jurassic from "../assets/images/Tranding/jurassic.jpg";
+import ghost from "../assets/images/ComingSoon/ghost.jpg";
+import mission from "../assets/images/ComingSoon/mission.jpg";
+import movie from "../assets/images/ComingSoon/movie.jpg";
+import pamali from "../assets/images/ComingSoon/pamali.jpg";
+import sakura from "../assets/images/ComingSoon/sakura.jpg";
+import sukmo from "../assets/images/ComingSoon/sukmo.jpg";
 import doraemon from "../assets/images/Tranding/doraemon.jpg";
 import tahzan from "../assets/images/Tranding/tahzan.jpg";
 
 const Trending = () => {
   return (
     <div>
-      <Container id="trending">
-        <h1 className="text-white trending-text">Tranding Movies</h1>
+      <Container id="comingSoon">
+        <h1 className="text-white trending-text">Coming Soon</h1>
         <Row className="justify-content-center g-2">
           <Col md={3} className="movieWrapper mt-5 d-flex justify-content-center">
-            <Card className="movieImage">
-              <Image src={dragonImage} alt="Dragon Movie" className="Image"/>
+            <Card className="movieImage hero">
+              <Image src={ghost} alt="Dragon Movie" className="Image"/>
               <div className="box bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">Dragon</Card.Title>
@@ -30,7 +30,7 @@ const Trending = () => {
           </Col>
           <Col md={3} className="movieWrapper mt-5 d-flex justify-content-center">
             <Card className="movieImage">
-              <Image src={elio} alt="Elio Movie" className="Image"/>
+              <Image src={mission} alt="Elio Movie" className="Image"/>
               <div className=" box bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">Elio</Card.Title>
@@ -44,7 +44,7 @@ const Trending = () => {
           </Col>
           <Col md={3} className="movieWrapper mt-5 d-flex justify-content-center">
             <Card className="movieImage">
-              <Image src={superman} alt="Superman Movie" className="Image"/>
+              <Image src={movie} alt="Superman Movie" className="Image"/>
               <div className="box bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">Superman</Card.Title>
@@ -58,7 +58,7 @@ const Trending = () => {
           </Col>
           <Col md={3} className="movieWrapper mt-5 d-flex justify-content-center">
             <Card className="movieImage">
-              <Image src={years} alt="28 Years Movie" className="Image"/>
+              <Image src={pamali} alt="28 Years Movie" className="Image"/>
               <div className="box bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">28 Years Later</Card.Title>
@@ -72,7 +72,7 @@ const Trending = () => {
           </Col>
           <Col md={3} className="movieWrapper mt-5 d-flex justify-content-center">
             <Card className="movieImage">
-              <Image src={summer} alt="Superman Movie" className="Image"/>
+              <Image src={sakura} alt="Superman Movie" className="Image"/>
               <div className="box bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">Last Summer</Card.Title>
@@ -86,7 +86,7 @@ const Trending = () => {
           </Col>
           <Col md={3} className="movieWrapper mt-5 d-flex justify-content-center">
             <Card className="movieImage">
-              <Image src={jurassic} alt="Superman Movie" className="Image"/>
+              <Image src={sukmo} alt="Superman Movie" className="Image"/>
               <div className="box bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">Jurassic World</Card.Title>

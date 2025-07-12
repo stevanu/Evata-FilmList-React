@@ -2,6 +2,7 @@ import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import Intro from "./components/Intro";
 import Trending from "./components/Trending";
+import ComingSoon from "./components/ComingSoon";
 import "./style/landingPage.css"
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
       </div>
       <div className="trending">
         <Trending />
+      </div>
+      <div className="comingSoon">
+      <ComingSoon/>
       </div>
     </div>
   );
